@@ -5,13 +5,12 @@ using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Incapsulation.Protected;
+namespace Incapsulation.Abstract;
 
- class Animal
+ class Dog : Canine
 {
-    protected string A;
-    protected string B;
-
-    public string dog = "WOOF";
-    
+	public Dog()
+	{
+		Console.WriteLine("Wuf");
+	}
 }
