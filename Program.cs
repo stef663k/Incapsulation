@@ -12,7 +12,7 @@ class Incapsulation
     {
         var animal = new Mammal();
         //animal.B = 1;
-        Console.WriteLine(AnimalCat.cat);
+        //Console.WriteLine(AnimalCat.cat);
         var dog = new Dog();
         Console.WriteLine(dog);
         var shark = new Shark();
