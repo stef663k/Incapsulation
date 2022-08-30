@@ -1,4 +1,5 @@
 ﻿using Incapsulation.Protected;
+using Incapsulation.Static;
 
 namespace Incapsulation;
 
@@ -9,5 +10,6 @@ class Incapsulation
     {
         var animal = new Mammal();
         animal.B = 1;
+        Console.WriteLine(AnimalCat.cat);
     }
 }
